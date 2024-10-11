@@ -1,0 +1,17 @@
+{
+    "name": "dell/15_autoloading",
+    "authors": [
+        {
+            "name": "Kamarauli-Ana",
+            "email": "75663194+Kamarauli-Ana@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload":{
+        "psr-4": {
+            "app\\":"./app"
+        }
+    }
+}
